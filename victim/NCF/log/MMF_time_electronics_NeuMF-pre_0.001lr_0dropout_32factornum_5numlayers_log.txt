@@ -1,0 +1,6 @@
+Namespace(GMF_model_path='None', MLP_model_path='None', batch_size=2048, data_path='F:\\RSlib\\code\\Recommender_baselines-main\\data', data_type='time', dataset='electronics', dropout=0.0, epochs=100, factor_num=32, gpu='0', log_name='log', lr=0.001, model='NeuMF-pre', model_path='./models/', num_layers=5, num_ng=4, out=True, test_num_ng=99, top_k='[10, 20, 50, 100]')
+--init--
+Traceback (most recent call last):
+  File "main.py", line 228, in <module>
+    assert os.path.exists(GMF_model_path), 'lack of GMF model'
+AssertionError: lack of GMF model

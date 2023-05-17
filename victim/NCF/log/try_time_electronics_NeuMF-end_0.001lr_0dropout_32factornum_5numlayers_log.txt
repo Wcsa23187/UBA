@@ -1,0 +1,66 @@
+Namespace(GMF_model_path='None', MLP_model_path='None', batch_size=64, data_path='F:\\RSlib\\code\\Recommender_baselines-main\\data', data_type='time', dataset='electronics', dropout=0.0, epochs=100, factor_num=32, gpu='0', log_name='log', lr=0.001, model='NeuMF-end', model_path='./models/', num_layers=5, num_ng=4, out=True, test_num_ng=99, top_k='[10, 20, 50, 100]')
+--init--
+Epoch [000]  loss is 1.131
+Epoch [001]  loss is 0.824
+Epoch [002]  loss is 0.650
+Epoch [003]  loss is 0.514
+Epoch [004]  loss is 0.425
+Epoch [005]  loss is 0.365
+Epoch [006]  loss is 0.316
+Epoch [007]  loss is 0.276
+Epoch [008]  loss is 0.244
+Epoch [009]  loss is 0.216
+vt_dict 8999
+mse tensor(1.1167, device='cuda:0', dtype=torch.float64)
+vt_dict 9496
+mse tensor(1.2893, device='cuda:0', dtype=torch.float64)
+Validation: The time elapse of epoch 009 is: 00: 00: 52
+Epoch [010]  loss is 0.192
+Epoch [011]  loss is 0.170
+Epoch [012]  loss is 0.152
+Epoch [013]  loss is 0.136
+Epoch [014]  loss is 0.123
+Epoch [015]  loss is 0.111
+Epoch [016]  loss is 0.101
+Epoch [017]  loss is 0.091
+Epoch [018]  loss is 0.084
+Epoch [019]  loss is 0.077
+vt_dict 8999
+mse tensor(1.2277, device='cuda:0', dtype=torch.float64)
+vt_dict 9496
+mse tensor(1.3314, device='cuda:0', dtype=torch.float64)
+Validation: The time elapse of epoch 019 is: 00: 00: 52
+Epoch [020]  loss is 0.072
+Epoch [021]  loss is 0.066
+Epoch [022]  loss is 0.062
+Epoch [023]  loss is 0.057
+Epoch [024]  loss is 0.055
+Epoch [025]  loss is 0.051
+Epoch [026]  loss is 0.048
+Epoch [027]  loss is 0.045
+Epoch [028]  loss is 0.043
+Epoch [029]  loss is 0.041
+vt_dict 8999
+mse tensor(1.2411, device='cuda:0', dtype=torch.float64)
+vt_dict 9496
+mse tensor(1.3326, device='cuda:0', dtype=torch.float64)
+Validation: The time elapse of epoch 029 is: 00: 00: 53
+Epoch [030]  loss is 0.040
+Epoch [031]  loss is 0.038
+Epoch [032]  loss is 0.036
+Epoch [033]  loss is 0.035
+Epoch [034]  loss is 0.034
+Epoch [035]  loss is 0.033
+Epoch [036]  loss is 0.032
+Epoch [037]  loss is 0.030
+Epoch [038]  loss is 0.029
+Epoch [039]  loss is 0.029
+vt_dict 8999
+mse tensor(1.2081, device='cuda:0', dtype=torch.float64)
+vt_dict 9496
+mse tensor(1.3209, device='cuda:0', dtype=torch.float64)
+Validation: The time elapse of epoch 039 is: 00: 00: 54
+Epoch [040]  loss is 0.028
+Epoch [041]  loss is 0.026
+Epoch [042]  loss is 0.027
+Epoch [043]  loss is 0.026

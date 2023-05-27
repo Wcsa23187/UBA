@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-  
-"""          
-# @Author : Changsheng Wang
-# @Time : 2023/5/27 21:07
-# @Contact : wcsa23187@mail.ustc.edu.cn
-"""
+
 import numpy as np
 import pandas as pd
 df = pd.read_csv('.\RSlib\data_latest\ml1m\deal well\deal_well.csv')

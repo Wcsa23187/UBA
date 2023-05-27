@@ -11,7 +11,7 @@ os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 # sys.argv[sys.argv.index('--target_prediction_path_prefix') + 1]
 # args = parse_args()
 
-ROOT_PATH = "/home/wcs/attack1/Attack/victim/lightGCN/rootpath"
+ROOT_PATH = "/home/attack1/Attack/victim/lightGCN/rootpath"
 CODE_PATH = join(ROOT_PATH, 'code')
 DATA_PATH = join(ROOT_PATH, 'data')
 BOARD_PATH = join(CODE_PATH, 'runs')

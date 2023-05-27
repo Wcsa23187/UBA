@@ -15,7 +15,7 @@ conda activate uba
 
 ## Data
 
-You can download ML-1M, Yelp, Amazon at [Google Drive]()
+You can download ML-1M, Yelp, Amazon at Google Drive
 
 
 

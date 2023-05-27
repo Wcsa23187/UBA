@@ -62,7 +62,7 @@ parser.add_argument("--gpu",
 	help="gpu card ID")
 parser.add_argument("--data_path",
 	type=str,
-	default="/storage/shjing/recommendation/causal_discovery/data/ml-1m/random_split",
+	default="",
 	help="main path for dataset")
 parser.add_argument("--dataset",
 	type=str,
@@ -111,7 +111,7 @@ train_loader = data.DataLoader(train_dataset,
 		batch_size=args.batch_size, shuffle=True, num_workers=4)
 
 ########################### CREATE MODEL #################################
-model_path = '/storage/shjing/recommendation/causal_discovery/code/NCF_torch/models/MF_yelp_0.001lr_0.0dropout_64factornum_5numlayers.pth'
+
 model = torch.load(model_path)
 
 # model.cuda()

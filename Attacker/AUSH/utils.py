@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/11/27 15:34
-# @Author     : chensi
-# @File       : data_loader.py
-# @Software   : PyCharm
-# @Desciption : None
+
 
 import torch.nn.functional as F
 from scipy import sparse

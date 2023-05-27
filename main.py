@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/12/27 19:57
-# @Author     : chensi
-# @File       : run.py
-# @Software   : PyCharm
-# @Desciption : None
+
 
 
 import argparse, os, sys

@@ -6,13 +6,13 @@
 """
 import numpy as np
 import pandas as pd
-df = pd.read_csv('F:\RSlib\data_latest\ml1m\deal well\deal_well.csv')
+df = pd.read_csv('.\RSlib\data_latest\ml1m\deal well\deal_well.csv')
 print(df.groupby('rating').count())
 x = np.zeros((50, 6))
 for j in range(1,6):
     k = j + 1
     for i in range(2023, 2033):
-        path = r'F:\RSlib\data_latest\ml1m\MF_matrix\AUSHunpop' + '\\' + str(k) + '_' + str(i) + '.npy'
+        path = r'.\RSlib\data_latest\ml1m\MF_matrix\AUSHunpop' + '\\' + str(k) + '_' + str(i) + '.npy'
         # print(path)
         try:
             mydict = np.load(path, allow_pickle=True).item()
@@ -24,7 +24,7 @@ for j in range(1,6):
         except:
             print(path)
             continue
-new = np.load(r'F:\RSlib\data_latest\ml1m\MF_matrix\a3path3116.npy')
+new = np.load(r'.\RSlib\data_latest\ml1m\MF_matrix\a3path3116.npy')
 final_csv =[]
 for i in range(50):
     empty = []

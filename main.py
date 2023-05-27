@@ -68,7 +68,7 @@ class Run:
         parser.add_argument("--out", default=False, help="save model or not")
         parser.add_argument("--gpu", type=str, default="0", help="gpu card ID")
         parser.add_argument("--data_path", type=str,
-                            default="/storage/shjing/recommendation/causal_discovery/data/ml-1m/random_split",
+                            default="",
                             help="main path for dataset")
         parser.add_argument("--dataset", type=str, default='ml-1m', help="dataset")
         parser.add_argument("--data_type", type=str, default="time", help="time_split or random_split")
@@ -104,7 +104,7 @@ class Run:
         '''
 
         parser.add_argument('--light_data_path', type=str,
-                            default='/storage/shjing/recommendation/causal_discovery/data/amazon_book/data_1202/split_time',
+                            default='',
                             help='the path to dataset')
         parser.add_argument('--light_dataset', type=str, default='gowalla',
                             help="available datasets: [lastfm, gowalla, yelp2018, amazon-book]")

@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/12/6 12:54
-# @Author     : chensi
-# @File       : AUSH.py
-# @Software   : PyCharm
-# @Desciption : None
+
 
 import random
 import numpy as np

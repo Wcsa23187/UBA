@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/12/6 12:51
-# @Author     : chensi
-# @File       : Base_Attacker.py
-# @Software   : PyCharm
-# @Desciption : None
+
 
 import os
 # os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"

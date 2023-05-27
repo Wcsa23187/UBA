@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/11/27 17:20
-# @Author     : chensi
-# @File       : Recommender.py
-# @Software   : PyCharm
-# @Desciption : None
+
 
 
 import os

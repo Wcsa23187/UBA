@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/11/29 11:59
-# @Author     : chensi
-# @File       : execute_model.py
-# @Software   : PyCharm
-# @Desciption : None
+
 import random
 import numpy as np
 '''

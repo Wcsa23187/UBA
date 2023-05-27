@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/11/29 18:41
-# @Author     : chensi
-# @File       : evaluator.py
-# @Software   : PyCharm
-# @Desciption : None
+
 import random
 import numpy as np
 import torch

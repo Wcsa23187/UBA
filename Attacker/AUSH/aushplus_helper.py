@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time       : 2020/12/3 20:03
-# @Author     : chensi
-# @File       : tkde.py
-# @Software   : PyCharm
-# @Desciption : None
+
 
 
 import random
